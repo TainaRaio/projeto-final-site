@@ -32,6 +32,12 @@
   background-color: #4CA;
 }
 
+.fale{
+  text-align: center;
+}
+
+
+
 /* Estilos para telas Pequenas (até 640px de largura) */
 @media screen and (max-width: 640px) {
   .form {

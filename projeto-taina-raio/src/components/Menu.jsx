@@ -47,13 +47,12 @@ const Menu = () => {
        Cursos
       </Dropdown.Toggle>
       <Dropdown.Menu>
-        <Dropdown.Item href="/tecnologia">Tecnologia</Dropdown.Item>
-        <Dropdown.Item href="/financas">Finanças</Dropdown.Item>
-        <Dropdown.Item href="/saude">Saúde</Dropdown.Item>
+        
+        <Dropdown.Item ><Link className={styles.menuLink} to="/tecnologia">Tecnologia</Link></Dropdown.Item>
+        <Dropdown.Item href="financas">Finanças</Dropdown.Item>
+        <Dropdown.Item href="saude">Saúde</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
-  
-     
       <li>
         <Link className={styles.menuLink} to="/contato">Contato</Link>
       </li>

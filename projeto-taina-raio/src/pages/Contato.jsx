@@ -47,9 +47,14 @@ const Contato = () => {
   return (
     <>
       <Header 
-        title="Fale comigo" 
-        image={contato} 
+        // headerId="contatoHeader"
+        // title="Fale comigo" 
+        // image={contato} 
       />
+
+      <h1 className={styles.fale}>
+        Fale conosco
+      </h1>
       <main>
         <form className={styles.form} onSubmit={handleSubmit}>
           <input 

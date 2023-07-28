@@ -39,8 +39,8 @@ imgLiink{
   }
 }
 
-/* Estilos para telas Médias (641px a 1007px de largura) */
-@media screen and (min-width: 641px) and (max-width: 1007px) {
+/* Estilos para telas Médias (641px a 1024px de largura) */
+@media screen and (min-width: 641px) and (max-width: 1006px) {
   .menuContainer {
     flex-direction: row;
     gap: 5rem;
